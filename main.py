@@ -1,9 +1,10 @@
-import read_words as reader
+import src.read_words as reader
 import sys
 from PyQt5.QtWidgets import QApplication, QDialog
 from PyQt5 import QtGui, QtTest
-from Hangman import HangMan
+from src.Hangman import HangMan
 import random
+
 
 class HangManApplication(QDialog):
 

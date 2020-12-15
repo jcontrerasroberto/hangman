@@ -1,5 +1,5 @@
 import json
-import Word
+import src.Word as Word
 
 def read_json():
     words = []
